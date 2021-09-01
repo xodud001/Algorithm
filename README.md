@@ -7,4 +7,8 @@
 
 # 알고리즘 풀이 정리
 * 그리디
-  * 모험가 길드 : [Java ](https://github.com/xodud001/Algorithm/blob/solve/src/greedy/AdventurerGuild.java)
+  * 모험가 길드 : [Java](https://github.com/xodud001/Algorithm/blob/solve/src/greedy/AdventurerGuild.java)
+  * 곱하기 혹은 더하기 : [Java](https://github.com/xodud001/Algorithm/blob/solve/src/greedy/MultipleOrPlus.java)
+  * 문자열 뒤집기 : [Java](https://github.com/xodud001/Algorithm/blob/solve/src/greedy/ReverseString.java)
+  * 만들 수 없는 금액 : [Java](https://github.com/xodud001/Algorithm/blob/solve/src/greedy/AmountNotCreated.java)
+  * 볼링공 고르기 : [Java](https://github.com/xodud001/Algorithm/blob/solve/src/greedy/ChooseBall.java)
