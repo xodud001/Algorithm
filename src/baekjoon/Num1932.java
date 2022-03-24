@@ -35,6 +35,5 @@ public class Num1932 {
             System.out.println(Arrays.toString(ints));
         }
         System.out.println(max);
-        a = max(a[y-1][x-1], a[y-1][x])
     }
 }
