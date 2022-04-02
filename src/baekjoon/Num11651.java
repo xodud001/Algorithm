@@ -9,29 +9,37 @@ public class Num11651 {
     private static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-        List<Point> points = new ArrayList<>();
+        List<MyPoint2> points = new ArrayList<>();
         int count = sc.nextInt();
 
         for (int i = 0; i < count; i++) {
-            points.add(new Point(sc.nextInt(), sc.nextInt()));
+            points.add(new MyPoint2(sc.nextInt(), sc.nextInt()));
         }
 
-        points.sort(Point::compareTo);
+        points.sort(MyPoint2::compareTo);
         points.forEach(System.out::println);
     }
 }
 
-class Point implements Comparable<Point> {
+class MyPoint2 implements Comparable<MyPoint2> {
     private final int x;
     private final int y;
 
-    public Point(int x, int y) {
+    public MyPoint2(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
+    public int getY() {
+        return y;
+    }
+
+    public int getX() {
+        return x;
+    }
+
     @Override
-    public int compareTo(Point o) {
+    public int compareTo(MyPoint2 o) {
         if(this.y == o.y)
             return this.x - o.x;
         else
